@@ -20,9 +20,8 @@ Sample powershell script for retrieving computer inventory data and storing it i
 
 Module SQLUtility and BITSDownload, which you can clone from <https://github.com/Rokory/SQLUtility> and <https://github.com/Rokory/BITSDownload>.
 
-#### Getting started
+### Getting started
 
 1. Install some edition of Microsoft SQL server on the local computer. You can use ````Install-SQLServer```` from the SQLUtility module to quickly install an Express edition
 2. Run the Setup-CIDatabase to create the database structure.
 3. Run the Update-CIAssets to store the computer inventory information in the database.
-
