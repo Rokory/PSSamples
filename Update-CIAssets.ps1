@@ -7,7 +7,7 @@
 #Requires -Modules SQLUtility
 
 # The name of the database
-$databaseServer = 'localhost'
+$databaseServer = 'localhost\SQLEXPRESS'
 $databaseName = 'Assets'
 
 # Connect to SQL server
