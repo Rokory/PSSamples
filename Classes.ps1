@@ -53,10 +53,10 @@ class Device : Asset {
 
     # Child classes can override methods from the base class
     [string] ToString(){
-        return ("{0}|{1}" -f (
+        return ("{0}|{1}" -f `
             # To call base class methods from overridden implementations, 
             # cast to the base class ([baseclass]$this) on invocation.
-            [Asset]$this).ToString(), $this.VendorSku)
+            ([Asset]$this).ToString(), $this.VendorSku)
     }
 
     [DeviceType] GetDeviceType() {
