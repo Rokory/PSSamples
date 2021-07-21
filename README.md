@@ -10,6 +10,14 @@ This script demonstrates the usage of object-oriented features in PowerShell. It
 
 Demonstrates a reusable patter for creating text-based menus in controller scripts.
 
+## manageusers.ps1
+
+Demonstrates very simple functions without parameters, how to export users from Active Directory to a CSV file, and how to modify users based on data from an imported CSV file.
+
+## managegroups.ps1
+
+Demonstrates how to create an organizational unit (OU) in Active Directory. Within the OU, groups are created from data in a CSV file. An attribute is set on the groups and computers accounts are added as members.
+
 ## Setup-CIDatabase.ps1 and Update-CIAssets.ps1
 
 ### Synopsis
