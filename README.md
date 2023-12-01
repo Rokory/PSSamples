@@ -26,7 +26,7 @@ Sample powershell script for retrieving computer inventory data and storing it i
 
 ### Requirements
 
-Module SQLUtility and BITSDownload, which you can clone from <https://github.com/Rokory/SQLUtility> and <https://github.com/Rokory/BITSDownload>.
+Module SQLUtility, which you can clone from <https://github.com/Rokory/SQLUtility>.
 
 ### Getting started
 
